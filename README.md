@@ -10,8 +10,9 @@ Welcome to ShoeStore, a SwiftUI-based iOS app for browsing and purchasing sneake
 - **Account:** Access your account information and personalise your experience.
 
 ## Screenshots
+<img src="https://github.com/PrajwalUnaik/SneakersStore/assets/148428641/0ef8b1cc-712f-4b53-aad8-e4a99e747b02" alt="Screenshot 1" width="200"/> <img src="https://github.com/PrajwalUnaik/SneakersStore/assets/148428641/7ff59f36-b99f-4303-a7f1-c62db7d7c452" alt="Screenshot 2" width="200"/> <img src="https://github.com/PrajwalUnaik/SneakersStore/assets/148428641/ac58e68e-fc68-473b-97dc-0355ed442ea9" alt="Screenshot 3" width="200"/>
 
-<img src="Simulator%20Screenshot%20-%20iPhone%2015%20-%202024-01-17%20at%2011.36.47.png" alt="Screenshot 1" width="200"/> <img src="Simulator%20Screenshot%20-%20iPhone%2015%20-%202024-01-17%20at%2011.37.04.png" alt="Screenshot 2" width="200"/> <img src="Simulator%20Screenshot%20-%20iPhone%2015%20-%202024-01-17%20at%2011.37.11.png" alt="Screenshot 3" width="200"/>
+
 
 Include some screenshots or GIFs here to showcase the app's interface and features.
 
