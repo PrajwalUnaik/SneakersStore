@@ -23,8 +23,8 @@ struct ContentView: View {
                 AccountView()
                     .tabItem { Image(systemName: "person") }
             }.accentColor(.black)
+            .navigationTitle("Sneakers")
         }
-        .searchable(text: $searchText)
     }
 }
 

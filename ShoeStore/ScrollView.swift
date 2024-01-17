@@ -9,6 +9,8 @@ import SwiftUI
 
 
 struct ScrollMain: View {
+    @State private var searchText: String = ""
+
     var body: some View {
         ScrollView(.vertical) {
             VStack {
@@ -63,10 +65,10 @@ struct ScrollMain: View {
                         ShoeCardName(shoeImage: "image4", CompanyImage: "image7", shoeName: "Puma-Low")
                     }
                 }
-            }
+            }.searchable(text: $searchText)
+            .navigationTitle("Sneakers")
+            .navigationBarItems(trailing: Image(systemName: "bell.fill").opacity(0.3))
         }
-        .navigationTitle("Sneakers")
-        .navigationBarItems(trailing: Image(systemName: "bell.fill").opacity(0.3))
     }
 }
 
