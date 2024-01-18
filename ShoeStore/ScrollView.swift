@@ -67,8 +67,9 @@ struct ScrollMain: View {
                 }
             }.searchable(text: $searchText)
             .navigationTitle("Sneakers")
+            .navigationTitle("Sneakers")
             .navigationBarItems(trailing: Image(systemName: "bell.fill").opacity(0.3))
-        }
+        }.navigationTitle("Sneakers")
     }
 }
 

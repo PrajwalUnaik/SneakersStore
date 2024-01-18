@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A565E4382B590BC0009D11ED /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A565E4372B590BC0009D11ED /* SearchView.swift */; };
+		A565E43A2B590BE4009D11ED /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A565E4392B590BE4009D11ED /* CartView.swift */; };
 		A5D0CD0D2B5767D700FDA22E /* ShoeStoreApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D0CD0C2B5767D700FDA22E /* ShoeStoreApp.swift */; };
 		A5D0CD0F2B5767D700FDA22E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D0CD0E2B5767D700FDA22E /* ContentView.swift */; };
 		A5D0CD112B5767D900FDA22E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5D0CD102B5767D900FDA22E /* Assets.xcassets */; };
@@ -18,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A565E4372B590BC0009D11ED /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		A565E4392B590BE4009D11ED /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
 		A5D0CD092B5767D700FDA22E /* ShoeStore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShoeStore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5D0CD0C2B5767D700FDA22E /* ShoeStoreApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoeStoreApp.swift; sourceTree = "<group>"; };
 		A5D0CD0E2B5767D700FDA22E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -65,6 +69,8 @@
 				A5D0CD1A2B576A8500FDA22E /* TopBrandCardView.swift */,
 				A5D0CD1C2B576E7000FDA22E /* ShoeCardName.swift */,
 				A5D0CD1E2B57771500FDA22E /* ScrollView.swift */,
+				A565E4372B590BC0009D11ED /* SearchView.swift */,
+				A565E4392B590BE4009D11ED /* CartView.swift */,
 				A5D0CD102B5767D900FDA22E /* Assets.xcassets */,
 				A5D0CD122B5767D900FDA22E /* Preview Content */,
 			);
@@ -152,8 +158,10 @@
 				A5D0CD1B2B576A8500FDA22E /* TopBrandCardView.swift in Sources */,
 				A5D0CD0F2B5767D700FDA22E /* ContentView.swift in Sources */,
 				A5D0CD0D2B5767D700FDA22E /* ShoeStoreApp.swift in Sources */,
+				A565E4382B590BC0009D11ED /* SearchView.swift in Sources */,
 				A5D0CD1F2B57771500FDA22E /* ScrollView.swift in Sources */,
 				A5D0CD212B5778E700FDA22E /* AcoountView.swift in Sources */,
+				A565E43A2B590BE4009D11ED /* CartView.swift in Sources */,
 				A5D0CD1D2B576E7000FDA22E /* ShoeCardName.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

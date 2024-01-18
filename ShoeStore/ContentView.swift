@@ -16,14 +16,14 @@ struct ContentView: View {
                 
                 ScrollMain()
                     .tabItem { Image(systemName: "house") }
-                Text("Search")
+                    .navigationTitle("Sneakers")
+                SearchView()
                     .tabItem { Image(systemName: "magnifyingglass") }
-                ScrollMain()
+                CartView()
                     .tabItem { Image(systemName: "cart") }
                 AccountView()
                     .tabItem { Image(systemName: "person") }
             }.accentColor(.black)
-            .navigationTitle("Sneakers")
         }
     }
 }
